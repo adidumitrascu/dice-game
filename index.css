@@ -5,10 +5,11 @@ body {
   font-family: 'Poppins', sans-serif;
 
 }
-
+nav,
 main {
   width: 550px;
   margin: 0 auto;
+  background: rgb(201, 201, 201)
 }
 
 .logo-img {
@@ -34,4 +35,21 @@ li {
 
 img {
   width: 100%;
+}
+
+section ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  margin: 0;
+}
+
+section ul li {
+  background:rgb(252, 252, 252);
+}
+
+.cross,
+.heart {
+  width: 30px
 }
