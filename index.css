@@ -7,9 +7,8 @@ body {
 
 nav,
 main {
-  width: 550px;
+  width: 100%;
   margin: 0 auto;
-  padding: 10px;
 }
 
 nav {
@@ -87,6 +86,8 @@ section {
 
 #hero-post {
   position: relative;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .hero-caption {
@@ -138,4 +139,11 @@ section {
 
 .like {
   background-image: url("images/badge-like.png");
+}
+
+@media (min-width: 450px) {
+  nav,
+  main {
+    width: 550px;
+  }
 }
