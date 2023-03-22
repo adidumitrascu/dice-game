@@ -6,7 +6,8 @@ body {
 }
 
 nav,
-main {
+main,
+#hero-post {
   width: 100%;
   margin: 0 auto;
 }
@@ -87,7 +88,6 @@ section {
 #hero-post {
   position: relative;
   width: 95%;
-  margin: 0 auto;
 }
 
 .hero-caption {
