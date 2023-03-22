@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:
@@ -15,16 +14,25 @@
   <body>
     <nav>
       <ul>
-          <li><img class="profile-img" src="/images/icon-profile.png"></li>
-          <li><img class="logo-img" src="/images/logo.png"></li>
-          <li><img class="chat-img" src="/images/icon-chat.png"></li>
+        <li><img class="profile-img" src="/images/icon-profile.png"></li>
+        <li><img class="logo-img" src="/images/logo.png"></li>
+        <li><img class="chat-img" src="/images/icon-chat.png"></li>
       </ul>
     </nav>
     <main>
-      <img id="hero" src="/images/dog-rex.jpg">
+      <div class="hero-post">
+        <img id="badge" src="/images/badge-nope.png">
+        <div class="img-gradient">
+          <img id="hero-img" src="/images/dog-rex.jpg">
+        </div>
+        <div class="hero-caption">
+          <h2>Teddy, 30</h2>
+          <p>How you doin?</p>
+        </div>
+      </div>
       <section>
-        <button class="cross-btn"><img class="btn" src="/images/icon-cross.png"></button>
-        <button class="heart-btn"><img class="btn" src="/images/icon-heart.png"></button>
+        <button class="cross-btn"></button>
+        <button class="heart-btn"></button>
       </section>
     </main>
     <script src="index.js" type="module"></script>
