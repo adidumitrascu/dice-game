@@ -1,12 +1,10 @@
 import dogs from '/data.js'
 import Dog from './Dog.js'
 
-
 let index = 0
 let firstDog = new Dog(dogs[index])
 let isWaiting = false
 let isSwiped = false
-
 
 function renderBtn() {
   document.getElementById('btn').innerHTML = firstDog.getBtnHtml()
