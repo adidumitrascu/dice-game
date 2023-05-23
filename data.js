@@ -25,10 +25,10 @@ const dogs = [
   {
       name: "Ines",
       avatar: "images/dog-teddy.jpg",
-      age: 35,
+      age: 36,
       bio: "How you doin?",
       hasBeenSwiped: false,
-      hasBeenLiked: false
+      hasBeenLiked: true
   }
 ]
 
